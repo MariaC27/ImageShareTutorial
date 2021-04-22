@@ -11,7 +11,8 @@ export default function App() {
   //initialize variables to hold selected image data
   const [selectedImage, setSelectedImage] = React.useState(null);
 
-  //request permission to access the camera roll 
+  //request permission to access the camera roll       
+  
   let openImagePickerAsync = async () => {
     let permissionResult = await ImagePicker.requestMediaLibraryPermissionsAsync();
 
