@@ -12,7 +12,6 @@ export default function App() {
   const [selectedImage, setSelectedImage] = React.useState(null);
 
   //request permission to access the camera roll       
-  
   let openImagePickerAsync = async () => {
     let permissionResult = await ImagePicker.requestMediaLibraryPermissionsAsync();
 
